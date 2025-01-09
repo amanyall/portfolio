@@ -1,0 +1,337 @@
+<!--
+  Follow the instructions written in comments to create your stunning portfolio
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/logo.png" />
+  <link rel="icon" type="image/png" href="./images/favicon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <!-- Put your site title here -->
+  <title>
+    Aman Pandey | Web Developer 
+  </title>
+
+  <meta name="description" content="">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Linux (Debian and RHEL), AWS, Jenkins, SQL (MySQL and PostgreSQL)" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <!--<li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li> -->
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text about__text">
+        <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
+          <span>Aman Pandey</span>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+        <p>As a web developer, I specialize in building responsive, user-friendly websites and applications that blend functionality with design. Proficient in modern web technologies, I create seamless digital experiences tailored to user needs. My focus is on delivering clean, efficient, and scalable solutions.</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Work</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text about__text">
+              <h3>Gemini Ai Clone</h3>
+              <p>
+                The Gemini Web Clone is a modern web application built with React and powered by Generative Gemini AI. It’s designed to look and function just like the original, delivering a seamless and fully interactive experience that feels authentic and reliable.
+              </p>
+              <ul class="work__list">
+                <li>React</li>
+                <li>Generative Gemini AI API</li>
+                <li>Local Storage</li>
+                <li>CSS Module</li>
+                <li>JavaScript ES6+</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/amanyall/Gemini-Clone" target="_blank" class="link__text">
+                  Source code <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/amanyall/Gemini-Clone" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div> 
+            </div>
+            <div class="work__image-box">
+              <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./images/project-1-image-1.png" class="work__image d-block w-100" alt="Project 1" />
+                  </div>
+                  <div class="carousel-item active">
+                    <img src="./images/project-1-image-2.png" class="work__image d-block w-100" alt="Project 1" />
+                  </div>
+                  <div class="carousel-item active">
+                    <img src="./images/project-1-image-3.png" class="work__image d-block w-100" alt="Project 1" />
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+
+
+          <!-- Second Project -->
+
+          <div class="work__box">
+            <div class="work__text about__text">
+              <h3>Music School</h3>
+              <p>
+                Developed a fully responsive music school webpage using Next.js with dynamic routing for optimized
+                performance and seamless navigation. The interface was crafted with ShadCN and Acertenity UI, ensuring
+                an engaging user experience across all devices. The project follows a modular, component-based architecture for
+                scalability and ease of maintenance.
+              </p>
+              <ul class="work__list">
+                <li>Next.js</li>
+                <li>Shad Cn</li>
+                <li>Acertinity UI</li>
+                <li>JavaScript ES6+</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/amanyall/musicnet" target="_blank" class="link__text">
+                  Source code <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/amanyall/musicnet" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div> 
+            </div>
+            <div class="work__image-box">
+
+              <div id="carouselExample2" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./images/project-2-image-1.png" class="work__image d-block w-100" alt="Project 1" />
+                  </div>
+                  <div class="carousel-item active">
+                    <img src="./images/project-2-image-2.png" class="work__image d-block w-100" alt="Project 1" />
+                  </div>
+                  <div class="carousel-item active">
+                    <img src="./images/project-2-image-3.png" class="work__image d-block w-100" alt="Project 1" />
+                  </div>
+                  <div class="carousel-item active">
+                    <img src="./images/project-2-image-4.png" class="work__image d-block w-100" alt="Project 1" />
+                  </div>
+                  <div class="carousel-item active">
+                    <img src="./images/project-2-image-5.png" class="work__image d-block w-100" alt="Project 1" />
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+            </div>
+          </div>
+          
+  
+
+
+          <!-- Third Project -->
+            
+          
+
+              <div class="work__box">
+                  <div class="work__tex">
+                  <h3>anonmsg</h3>
+                  <div class="about__text">
+                    <p>
+                      Created an anonymous messaging platform that allows users to send and receive messages securely,
+                      featuring Zod for schema validation, ShadCN for UI components, React Hook Form for form handling, and a
+                      custom authentication system to ensure privacy and security.
+                    </p>
+                  </div>
+                  <ul class="work__list">
+                    <li>Next.js</li>
+                    <li>zod</li>
+                    <li>ShadCn</li>
+                    <li>React Hook Form</li>
+                  </ul>
+
+                  <div class="work__links">
+                     <a href="https://github.com/amanyall/musicnet" target="_blank" class="link__text">
+                       Source code <span>&rarr;</span>
+                    </a>
+                    <a href="https://github.com/amanyall/musicnet" title="View Source Code" target="_blank">
+                     <img src="./images/github.svg" class="work__code" alt="GitHub">
+                   </a>
+                   
+                   
+              </div> 
+              <div class="github">
+                <p> Other projects are available at GitHub
+                  <a href="https://github.com/amanyall" title="Link to Github Profile" target="_blank" >
+                    <img src="./images/github.svg" class="footer__social-image" alt="Github">
+                  </a>
+                </p>
+                
+               </div>
+            </div>
+
+            </div>
+          </div>
+          </div>
+         </div>
+         
+
+         </div>
+          
+
+
+
+
+
+          </div> 
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Clients ***** -->
+
+    <!--<section class="client" id="clients">
+      <div class="row">
+        <h2>Clients</h2>
+        <div class="client__logos">
+          //Add logos of the clients or companies you'have worked with. 
+          <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
+          <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
+          <img src="./images/bullseye.png" class="client__logo" alt="Company 1" />
+          <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
+          <img src="./images/fastlane.png" class="client__logo" alt="Company 3" />
+          <img src="./images/chippy.png" class="client__logo" alt="Company 1" />
+        </div>
+      </div>
+    </section>
+  -->
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/profile-pic.png" alt="" />
+          </div>
+
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p class="about_paragraph">
+              I’m excited to connect with fellow web developers to refine and apply my skills in creating seamless, high-performance web applications. Passionate about building user-friendly solutions, I’m dedicated to enhancing user experiences and staying up-to-date with the latest web technologies and development practices.
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="AmanPandeyResume.pdf" class="btn" target="_blank"> Download My Resume</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          Hey there! Thanks for stopping by my portfolio. If you're looking for someone to bring fresh ideas, creative solutions, and a whole lot of enthusiasm to your team, you’re in the right place. Whether you’re hiring, have a project in mind, or just want to chat, I’d love to connect! Drop me a message, and let’s explore how I can help make your vision a reality.
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="mailto:amanpandey5961@gmail.com" class="btn">amanpandey5961@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+
+              
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+       
+        <li class="footer__social-link-item">
+          <a href="https://github.com/amanyall" title="Link to Github Profile" target="_blank" >
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        
+        <li class="footer__social-link-item">
+          <a href="https://www.linkedin.com/in/aman-pandey-0878a323b/" title="Link to LinkedIn Profile" target="_blank" >
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+
+      <p>
+        &copy; 2025 - Aman Pandey <a href="https://www.linkedin.com/in/aman-pandey-0878a323b/" class="link"></a>
+      </p>
+    
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.png" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+
+</html>
